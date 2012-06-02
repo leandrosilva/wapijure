@@ -1,5 +1,5 @@
-(ns webapijure.test.core
-  (:use [webapijure.core])
+(ns wapijure.test.core
+  (:use [wapijure.core])
   (:use [clojure.test]))
 
 (deftest replace-me ;; FIXME: write

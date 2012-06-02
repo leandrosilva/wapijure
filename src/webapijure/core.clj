@@ -1,4 +1,4 @@
-(ns webapijure.core
+(ns wapijure.core
   (:use [clojure.data.json :only (json-str)])
   (:use [compojure.core :only [defroutes GET POST]])
   (:require [compojure.route :as route]
@@ -32,4 +32,4 @@
 
 (defn -main []
   (let [port (Integer/parseInt (System/getenv "PORT"))]
-    (ring/run-jetty #'webapijure.core/app {:port port})))
+    (ring/run-jetty #'wapijure.core/app {:port port})))
