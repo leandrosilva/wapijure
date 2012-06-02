@@ -1,5 +1,5 @@
 (defproject webapijure "1.0.0-SNAPSHOT"
-  :description "Webapijure API"
+  :description "Webapijure"
   :dependencies [[org.clojure/clojure "1.4.0"]
                  [ring/ring-jetty-adapter "1.1.0"]
                  [compojure "1.0.4"]]
