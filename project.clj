@@ -1,5 +1,5 @@
 (defproject wapijure "1.0.0-SNAPSHOT"
-  :description "Wapijure"
+  :description "wapijure - a Web API powered by Compojure"
   :dependencies [[org.clojure/clojure "1.4.0"]
                  [org.clojure/data.json "0.1.2"]
                  [ring/ring-jetty-adapter "1.1.0"]
