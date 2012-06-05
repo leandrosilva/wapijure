@@ -1,4 +1,5 @@
 (ns wapijure.core
+  (:gen-class)
   (:use [clojure.data.json :only (json-str)])
   (:use [compojure.core :only [defroutes GET POST]])
   (:require [compojure.route :as route]
