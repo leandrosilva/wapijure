@@ -8,8 +8,11 @@
   :ring {:handler wapijure.core/app}
   :main wapijure.core)
 
-; To run:
+; To just run:
 ; $ PORT=8080 lein run -m wapijure.core
+;
+; To run in development mode (with file reload):
+; $ PORT=8080 lein ring server-headless
 ;
 ; Or run as standalone app:
 ; $ lein uberjar
