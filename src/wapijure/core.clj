@@ -26,7 +26,7 @@
      :body (json-str {"text" text})})
 
   (route/resources "/")
-  (route/not-found "Page not found (403)"))
+  (route/not-found "Page not found (404)"))
 
 (def app
   (handler/site main-routes))
