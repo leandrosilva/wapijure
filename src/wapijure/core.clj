@@ -7,14 +7,14 @@
             [ring.adapter.jetty :as ring]))
 
 (defroutes main-routes
-  ; curl -XGET http://localhost:8080/
+  ; curl -X GET http://localhost:8080/
   (GET "/" []
     {:status 200
      :headers {"Content-Type" "application/json"}
      :body (json-str {"info" "A template to build web API based on Compojure"})})
 
-  ; curl -X POST http://localhost:8080/hello/world
-  (POST "/hello/:name" [name]
+  ; curl -X GET http://localhost:8080/hello/world
+  (GET "/hello/:name" [name]
     {:status 200
      :headers {"Content-Type" "application/json"}
      :body (json-str {"hello" name})})
