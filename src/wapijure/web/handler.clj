@@ -1,4 +1,4 @@
-(ns wapijure.web.api
+(ns wapijure.web.handler
   (:use [clojure.data.json :only (json-str)])
   (:use [compojure.core :only [defroutes GET POST]])
   (:require [compojure.route :as route]
@@ -27,5 +27,5 @@
   (route/resources "/")
   (route/not-found "Page not found (404)"))
 
-(def app
+(def api
   (handler/site main-routes))
