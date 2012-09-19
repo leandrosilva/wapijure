@@ -1,10 +1,10 @@
 # wapijure
 
-FIXME: write description
+This is my template to build web API based on Compojure.
 
 ## Usage
 
-FIXME: write
+Take a look at [this gist](https://gist.github.com/2870539) and you're gonna have information on how to use it.
 
 ## License
 
