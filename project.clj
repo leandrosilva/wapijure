@@ -5,7 +5,7 @@
                  [ring/ring-jetty-adapter "1.1.0"]
                  [compojure "1.0.4"]]
   :plugins [[lein-ring "0.7.0"]]
-  :ring {:handler wapijure.core/app}
+  :ring {:handler wapijure.web.api/app}
   :main wapijure.core)
 
 ; To just run:
